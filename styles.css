@@ -6,7 +6,7 @@ body {
   width: 450px;
   height: 275px;
   float: left;
-  margin: 30px;
+  margin: 15px;
   font-family: sans-serif;
   color: #4b5658;
   background-color: white;
@@ -81,10 +81,29 @@ h5 {
 }
 
 .button {
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 2px solid #d4d9dd;
+  border-radius: 15px;
   float: left;
-  height: auto;
+  height: 30px;
+  margin-right: 10px;
+
+}
+
+.button2 {
+  border: 2px solid #d4d9dd;
+  border-radius: 15px;
+  float: left;
+  height: 30px;
+  margin: 0;
+
+}
+
+.buttonDiv {
+  padding-top: 60px;
+}
+
+.buttonText {
+  position: relative;
 }
 
 .buttonRound {
