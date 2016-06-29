@@ -38,8 +38,10 @@ body {
 }
 
 p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #7b8b8e;
+  letter-spacing: .4px;
 }
 
 .header {
@@ -63,10 +65,19 @@ p {
   background-color: #2c9676;
 }
 
+h5 {
+  color: #7b8b8e;
+}
+
 .min {
   float: right;
-  padding-right: 30px;
+  padding-right: 25px;
   color: white;
+}
+
+.inner {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .button {
@@ -74,7 +85,6 @@ p {
   border-radius: 10px;
   float: left;
   height: auto;
-
 }
 
 .buttonRound {
